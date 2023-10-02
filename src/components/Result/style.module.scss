@@ -1,0 +1,15 @@
+.cardBox {
+    width: 22.1875rem;
+    height: 156px;
+    
+    margin-bottom: 80px;
+
+    h3 {
+        margin: 1.25rem 0;
+    }
+
+    @media (min-width: 800px) {
+        max-width: 1200px;
+        width: 100%;
+    }
+}

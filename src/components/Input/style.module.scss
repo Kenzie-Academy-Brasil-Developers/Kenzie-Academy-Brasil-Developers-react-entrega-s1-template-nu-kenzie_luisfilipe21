@@ -1,0 +1,26 @@
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5625rem;
+
+    width: 290px;
+    height: 4.9375rem;
+    flex-shrink: 0;
+    padding: 0 1rem;
+
+    margin-bottom: 0.625rem;
+
+    input {
+        display: flex;
+        width: 18.125rem;
+        height: 3.3rem;
+        align-items: center;
+        gap: 0.625rem;
+        flex-shrink: 0;
+
+        border-radius: 8px;
+        border: 2px solid var(--grey-1);
+        background: var(--grey-1);
+        padding-left: 0.625rem;
+    }
+}

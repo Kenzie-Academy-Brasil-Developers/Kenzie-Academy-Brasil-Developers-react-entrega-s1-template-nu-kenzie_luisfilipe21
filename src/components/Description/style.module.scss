@@ -1,0 +1,40 @@
+.containerBox {
+    margin: 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 800px){
+        flex-direction: row;
+        align-items: baseline;
+
+        width: 100%;
+        gap: 4rem;
+    }
+
+    .divDescription{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .descriptionBox {
+        width: 22.1875rem;
+        height: 27.125rem;
+    
+        border: 1px solid rgba(0, 0, 0, 0.20);
+            
+        margin-bottom: 1.25rem;
+    
+        padding: 0 0.9375rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+   
+}

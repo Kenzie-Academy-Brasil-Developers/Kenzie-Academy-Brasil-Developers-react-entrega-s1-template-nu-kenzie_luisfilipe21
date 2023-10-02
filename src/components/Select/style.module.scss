@@ -1,0 +1,27 @@
+.selectBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5625rem;
+
+    width: 19.5625rem;
+    height: 4.9375rem;
+    flex-shrink: 0;
+
+    select {
+        display: flex;
+        width: 19.5625rem;
+        height: 3rem;
+        padding: 0px 1rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+
+        border-radius: 0.5rem;
+        border: 2px solid var(--grey-0, #F8F9FA);
+        background: var(--grey-0, #F8F9FA);
+    }
+
+    label {
+        padding: 0px 16px;
+    }
+}

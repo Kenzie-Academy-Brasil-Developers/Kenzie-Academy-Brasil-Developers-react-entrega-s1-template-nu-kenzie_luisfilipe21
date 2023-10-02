@@ -1,0 +1,13 @@
+.container{
+    margin: 0 auto;
+    width: 50rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 800px){
+        max-width: 75rem;
+        
+    }
+}
