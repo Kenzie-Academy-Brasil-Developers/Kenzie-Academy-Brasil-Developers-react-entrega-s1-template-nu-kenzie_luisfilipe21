@@ -1,4 +1,4 @@
-import style from './style.module.scss';
+import style from "./style.module.scss";
 
 export const Select = ({id, label, handleChange, children}) => {
     return (
@@ -7,7 +7,7 @@ export const Select = ({id, label, handleChange, children}) => {
             
             <select 
             onChange={(e) => handleChange(e.target.value)}
-            className='text4'>
+            className="text4">
                 {children}
             </select>
         </div>

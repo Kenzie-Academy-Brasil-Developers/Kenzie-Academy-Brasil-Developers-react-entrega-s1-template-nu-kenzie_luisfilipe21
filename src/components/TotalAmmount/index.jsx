@@ -1,14 +1,14 @@
-import style from './style.module.scss';
+import style from "./style.module.scss";
 
 export const TotalAmmount = ({ financialList }) => {
     const totalAmmount = financialList.reduce((acc, total) => {
         const sum = acc + total.money 
         console.log(sum)
         
-        if(total.typeOfOption === 'Entrada'){
+        if(total.typeOfOption === "Entrada"){
             
             return Number(acc.toFixed(2)) + Number(total.money)
-        }else if(total.typeOfOption === 'Saida'){
+        }else if(total.typeOfOption === "Saida"){
             return acc - total.money
         }
     }, 0)

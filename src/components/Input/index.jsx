@@ -1,4 +1,4 @@
-import style from './style.module.scss';
+import style from "./style.module.scss";
 
 export const Input = ({ id, value, label, type, placeholder, children, handleChange }) => {
     return (
@@ -12,10 +12,10 @@ export const Input = ({ id, value, label, type, placeholder, children, handleCha
                 type={type}
                 placeholder={placeholder}
                 value={value}
-                className='text4'
+                className="text4"
                 onChange={(e) => handleChange(e.target.value)}
             />
-            <p className='text1'>{children}</p>
+            <p className="text1">{children}</p>
         </div>
     )
 }

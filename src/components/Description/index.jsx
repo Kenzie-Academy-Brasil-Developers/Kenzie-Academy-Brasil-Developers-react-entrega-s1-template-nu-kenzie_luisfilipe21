@@ -3,7 +3,7 @@ import { FormList } from "../FormList";
 import { Result } from "../Result";
 import { TotalAmmount } from "../TotalAmmount";
 
-import style from './style.module.scss';
+import style from "./style.module.scss";
 
 export const Description = () => {
     const [financialList, setFinancialList] = useState([]);

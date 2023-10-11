@@ -1,5 +1,5 @@
 import { ResultCard } from "./ResultCard";
-import style from './style.module.scss';
+import style from "./style.module.scss";
 
 export const Result = ({ financialList, removeFinancialStatement }) => {
 

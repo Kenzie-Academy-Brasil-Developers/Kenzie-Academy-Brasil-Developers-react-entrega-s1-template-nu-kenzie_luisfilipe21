@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Input } from '../Input';
-import { Select } from '../Select';
+import { useState } from "react";
+import { Input } from "../Input";
+import { Select } from "../Select";
 
-import style from './style.module.scss';
+import style from "./style.module.scss";
 
 export const FormList = ({ addFinancialStatement }) => {
 
@@ -26,7 +26,7 @@ export const FormList = ({ addFinancialStatement }) => {
         <section className={style.containerFrom}>
             <form onSubmit={submit}>
                 <Input
-                    id='description'
+                    id="description"
                     label="Descrição"
                     type="text"
                     placeholder="Digite aqui a sua descrição"
@@ -38,7 +38,7 @@ export const FormList = ({ addFinancialStatement }) => {
                 </Input>
 
                 <Input
-                    id='money'
+                    id="money"
                     label="Valor (R$)"
                     type="number"
                     placeholder="0,00"
@@ -47,16 +47,16 @@ export const FormList = ({ addFinancialStatement }) => {
                 />
 
                 <Select
-                    id='typeOfOption'
+                    id="typeOfOption"
                     value={typeOfOption}
-                    label='Tipo do valor'
+                    label="Tipo do valor"
                     handleChange={setTypeOfOption}
                 >
                     <option value="Entrada">Entrada</option>
                     <option value="Saida">Saída</option>
                 </Select>
 
-                <button type="submit" className='btn'>Inserir valor</button>
+                <button type="submit" className="btn">Inserir valor</button>
 
             </form>
         </section>
